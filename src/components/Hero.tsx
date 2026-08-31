@@ -7,8 +7,8 @@ export function Hero() {
   const { profile, social } = portfolioData;
 
   return (
-    <section id="top" className="relative flex min-h-screen items-center justify-center pt-20">
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-12 px-5 py-16 text-center md:flex-row md:text-left md:gap-16">
+    <section id="top" className="relative flex min-h-[75vh] items-center justify-center pt-20">
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-8 px-5 py-6 text-center md:flex-row md:text-left md:gap-12">
         <div className="flex-1">
           <span className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-700">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />

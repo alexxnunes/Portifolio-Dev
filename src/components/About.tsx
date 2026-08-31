@@ -7,7 +7,7 @@ export function About() {
 
   return (
     <section id="sobre" className="border-t border-slate-100 py-24">
-      <div className="mx-auto max-w-6xl px-5">
+      <div className="mx-auto max-w-7xl px-5">
         <Reveal>
           <p className="font-['JetBrains_Mono'] text-xs font-medium text-blue-500">// sobre</p>
           <h2 className="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">
