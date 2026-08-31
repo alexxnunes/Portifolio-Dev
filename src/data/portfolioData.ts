@@ -6,7 +6,7 @@ export const portfolioData = {
     philosophy:
       "Gosto de entender o problema antes de escolher a tecnologia. Construo software útil, seguro e bem estruturado — pensando não só em como ele funciona, mas em como ele roda, escala e se mantém.",
     about:
-      "Sou desenvolvedor de software em formação, com foco em backend, infraestrutura e DevOps. Minha base principal é Java e Spring Boot, com experiência prática em Docker, Linux, Nginx e Oracle Cloud Infrastructure para deploy e gerenciamento de aplicações.\n\nNo frontend, trabalho com JavaScript, HTML e CSS; para stacks mais complexas (React, TypeScript), já venho utilizando com apoio de IA no desenvolvimento.\n\nTenho experiência prática desenvolvendo aplicações completas, desde a arquitetura do backend e banco de dados até infraestrutura, deploy e documentação — com interesse crescente em automação de processos e cultura DevOps.\n\nMinha formação em desenvolvimento inclui o programa Oracle Next Education (ONE) com Alura, com estudos em Java, lógica de programação, orientação a objetos, Git/GitHub, desenvolvimento web e Spring Boot.\n\nGosto de projetos que envolvem problemas reais de negócio, arquitetura, infraestrutura e automação de sistemas que possam evoluir de forma organizada.\n\nTambém me preocupo com segurança, boas práticas de documentação técnica e conformidade com a LGPD nos projetos que desenvolvo.",
+      "Sou desenvolvedor de software em formação, com foco em backend, infraestrutura e DevOps. Minha base principal é Java e Spring Boot, com experiência prática em Docker, Linux, Nginx e Oracle Cloud Infrastructure para deploy e gerenciamento de aplicações — da arquitetura do backend e banco de dados até deploy e documentação. No frontend, trabalho com JavaScript, HTML e CSS.\n\nMinha formação inclui o programa Oracle Next Education (ONE) com Alura, com estudos em Java, lógica de programação, orientação a objetos, Git/GitHub, desenvolvimento web e Spring Boot.\n\nTambém me preocupo com segurança, boas práticas de documentação técnica e conformidade com a LGPD nos projetos que desenvolvo.",
     certifications: [
       "Oracle Cloud Infrastructure (OCI) Foundations Associate",
       "Oracle Next Education (ONE) — Formação em Desenvolvimento de Software com Alura",
@@ -47,7 +47,7 @@ export const portfolioData = {
     },
     {
       category: "Frontend",
-      items: ["JavaScript", "HTML", "CSS", "React", "TypeScript"],
+      items: ["JavaScript", "HTML", "CSS"],
     },
     {
       category: "Banco de Dados",
