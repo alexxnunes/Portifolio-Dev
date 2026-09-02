@@ -51,7 +51,7 @@ export function Contact() {
         </Reveal>
       </div>
 
-      <footer className="mx-auto mt-16 max-w-7xl border-t border-slate-100 px-5 pt-8 text-sm text-slate-400">
+      <footer className="mx-auto mt-16 max-w-7xl border-t border-slate-100 px-5 pt-8 text-sm text-slate-500">
         <p>© {year} {profile.name}</p>
       </footer>
     </section>

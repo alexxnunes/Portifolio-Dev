@@ -3,22 +3,8 @@ import { portfolioData } from "../data/portfolioData";
 import { Reveal } from "./Reveal";
 import { GithubIcon } from "./icons";
 
-interface Project {
-  id: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  stack: string[];
-  type: string;
-  featured?: boolean;
-  privateRepo?: boolean;
-  showcase?: boolean;
-  repoUrl?: string;
-  liveUrl?: string;
-}
-
 export function Projects() {
-  const projects = portfolioData.projects as Project[];
+  const projects = portfolioData.projects;
 
   return (
     <section id="projetos" className="border-t border-slate-100 bg-slate-50/50 py-24">
@@ -54,7 +40,7 @@ export function Projects() {
                       </span>
                     )}
                     {project.privateRepo && !project.showcase && (
-                      <span className="rounded-md border border-slate-100 bg-slate-50 px-2 py-0.5 text-xs font-medium text-slate-400">
+                      <span className="rounded-md border border-slate-100 bg-slate-50 px-2 py-0.5 text-xs font-medium text-slate-500">
                         Privado
                       </span>
                     )}

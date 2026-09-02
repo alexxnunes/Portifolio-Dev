@@ -23,12 +23,8 @@ export function Hero() {
             {profile.role}
           </p>
 
-          <p className="mt-2 font-['JetBrains_Mono'] text-sm text-slate-400">
+          <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-slate-600 md:mx-0">
             {profile.tagline}
-          </p>
-
-          <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-slate-500 md:mx-0">
-            {profile.philosophy}
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3 md:justify-start">

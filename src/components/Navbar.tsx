@@ -7,6 +7,7 @@ import { GithubIcon, LinkedinIcon } from "./icons";
 const links = [
   { label: "Sobre", href: "#sobre" },
   { label: "Habilidades", href: "#habilidades" },
+  { label: "Fundamentos", href: "#fundamentos" },
   { label: "Trajetória", href: "#trajetoria" },
   { label: "Projetos", href: "#projetos" },
   { label: "Contato", href: "#contato" },
@@ -43,7 +44,7 @@ export function Navbar() {
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
-            className="text-slate-400 transition-colors hover:text-slate-900"
+            className="text-slate-500 transition-colors hover:text-slate-900"
           >
             <GithubIcon size={18} />
           </a>
@@ -52,7 +53,7 @@ export function Navbar() {
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
-            className="text-slate-400 transition-colors hover:text-slate-900"
+            className="text-slate-500 transition-colors hover:text-slate-900"
           >
             <LinkedinIcon size={18} />
           </a>
@@ -62,7 +63,8 @@ export function Navbar() {
           type="button"
           className="rounded-md p-2 text-slate-500 md:hidden"
           onClick={() => setOpen((v) => !v)}
-          aria-label="Abrir menu"
+          aria-expanded={open}
+          aria-label={open ? "Fechar menu" : "Abrir menu"}
         >
           {open ? <X size={20} /> : <Menu size={20} />}
         </button>
@@ -82,10 +84,10 @@ export function Navbar() {
             </li>
           ))}
           <li className="flex gap-3 px-3 pt-2">
-            <a href={social.github} target="_blank" rel="noreferrer" aria-label="GitHub" className="text-slate-400 hover:text-slate-900">
+            <a href={social.github} target="_blank" rel="noreferrer" aria-label="GitHub" className="text-slate-500 hover:text-slate-900">
               <GithubIcon size={18} />
             </a>
-            <a href={social.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" className="text-slate-400 hover:text-slate-900">
+            <a href={social.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" className="text-slate-500 hover:text-slate-900">
               <LinkedinIcon size={18} />
             </a>
           </li>
