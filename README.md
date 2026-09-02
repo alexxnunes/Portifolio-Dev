@@ -126,3 +126,4 @@ O deploy é **automático** via GitHub Actions. A cada push na branch `main`:
 ## 📄 Licença
 
 Este é um projeto pessoal. Não há licença de uso público.
+
